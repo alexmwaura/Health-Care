@@ -1,16 +1,18 @@
 import styled from "styled-components";
 
 const MNavBar = styled.div`
-  background-color: #282c34;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 2vmin);
-  color: white;
+display: flex; 
+margin: 0 auto;
 `;
 
 const ListGroup = styled.ul`
+display: inline-block;
+list-style-type: none;
 `;
 
-const ListItems = styled.li``;
+const ListItems = styled.li`
+display: inline;
+`;
+
 
 export { MNavBar, ListGroup, ListItems };

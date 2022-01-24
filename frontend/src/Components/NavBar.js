@@ -1,18 +1,26 @@
 import React from 'react';
-import {MNavBar, ListGroup, ListItems} from './NavBar.styles';
+import {MNavBar, ListGroup, ListItems, ListSpan} from './NavBar.styles';
 
 function NavBar() {
   return (
     <MNavBar>
-        <ListGroup>
-            <ListItems>
-              Home
-            </ListItems>
-            <ListItems>
-              About
-            </ListItems>
-        </ListGroup>
+      <ListGroup>
+    <ListItems>
+        home
+    </ListItems>
+    <ListItems>
+        about
+    </ListItems>
+    <ListItems>
+        projects
+    </ListItems>
+    <ListItems>
+        contact
+    </ListItems>
+</ListGroup>
     </MNavBar>
+
+ 
   )
 }
 
